@@ -1,0 +1,14 @@
+owner = MGL
+controller = MGL
+add_core = MGL
+add_core = CHI
+trade_goods = wool
+life_rating = 32
+ 
+1913.1.1 = {
+	owner = CHI
+	add_core = CHI
+	railroad = 3
+}		
+ 
+set_province_flag = farm

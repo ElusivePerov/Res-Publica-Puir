@@ -1,0 +1,34 @@
+
+Changes for 1.0.0
+
+- Austria
+	- Austro-Hungarian Compromise decision no longer requires North German Federation, Germany or Italy to be formed
+	- Instead it can be formed normally in 1860 OR as soon as either Germany or Italy forms (Nat. Imp still required)
+	- Embrace Croat Minority decision no longer requires Psychoanalysis researched
+	- Embrace Slove Minority decision no longer requires Psychoanalysis and Social Science researched
+	- Hungarian cores are now wiped on Karlovac and Senj
+	- Austria and Austria-Hungary can now build the Walhalla as well
+
+-Army
+	- Engineers are now deployed on the front row
+	- Engineers and Tanks now have scaling siege values
+	- +1 Siege from Light Armament inventions starting from Breech-loaded Rifle Armament (Maximum of 5 siege)
+
+-Japan
+	- Reverted Iwakura Mission decision to 8.0.6 values (From a possible gain of 4xYearly RP while unciv back to 3xYearly RP after westernizing)
+
+-Navy
+	- Reverted Naval tech, inventions and units back to 8.0.6 values (Back to cruiser meta and vanilla-esque tech tree)
+
+-Italy
+	- Reverted the formation back to the 8.0.6 concept (Own Rome in 1860 and inherit all other italian nations)
+	- GP decision to feed their north italian spears to Sardinia-Piedmont (Credits to Nurse_Reno)
+	- Rome and Viterbo provinces returned to Lazio-Campania state, Foggia province returned to Abruzzo-Marche
+
+-Prussia
+	-Reverted the German formation back to the 8.0.6 concept (Inherit decisions are gone, back to lapse events and manual annexation)
+
+-War Goals
+	-Reverted tickers to vanilla values (0% a day -> 0.1% a day)
+	-Reverted battle warscore to vanilla values (0 max ws from battles -> 25 max ws from battles)
+	-Reverted penalty for not taking war goals (militancy gain and prestige loss reestabilished)

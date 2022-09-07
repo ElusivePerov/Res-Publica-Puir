@@ -1,0 +1,206 @@
+political_decisions = {
+
+	player_alliances = {
+		picture = host_nation
+		alert = yes
+		potential = {
+ 			has_country_flag = host_nation
+		}
+		allow = { 
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = LCT				
+			}
+		}
+	}
+
+    ###### UNSIEGE SYSTEM ######
+
+    open_unsiege_system = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+ 		effect = {
+			THIS = { set_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	close_unsiege_system = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			THIS = { clr_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_this_nation = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					NOT = {
+						alliance_with = THIS
+						has_country_flag = host_nation
+                    }
+				}
+				set_country_flag = unsiege_this
+				create_alliance = LCT
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_now = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					has_country_flag = unsiege_this
+				}
+				country_event = { id=476008 days=0 }
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	clear_unsiege_flags = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = { clr_country_flag = unsiege_this }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }	
+
+	###### MEME DECISIONS ######
+
+	total_war_cb = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+ 			has_country_flag = host_nation
+			NOT = { has_global_flag = total_war_cbs_enabled }
+			has_global_flag = total_war_cb_safety_off
+		}
+		allow = { 
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cbs_enabled
+		}
+	}
+	
+	total_war_cb_safety = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+ 			has_country_flag = host_nation
+			NOT = { has_global_flag = total_war_cb_safety_off }
+			NOT = { has_global_flag = total_war_cbs_enabled }
+		}
+		allow = { 
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cb_safety_off
+		}
+	}
+
+	develop_bioweapons = {
+		picture = "development_bio_weapons"
+			potential = {
+			ai = no
+			tag = LCT
+			NOT = { has_global_flag = enable_bioweapons }
+			}
+		
+			allow = {
+			tag = LCT
+			}
+		
+			effect = {
+				set_global_flag = enable_bioweapons
+				set_global_flag = zombies_allowed
+			}
+	}
+	
+	use_experimental_bioweapon = {
+		picture = "end_strategic_bombardment"
+		
+			potential = {
+			ai = no
+			tag = LCT
+			has_global_flag = enable_bioweapons
+			has_global_flag = zombies_allowed
+			ai = no
+			}
+		
+			allow = {
+			tag = LCT
+			}
+		
+			effect = {
+				country_event = 999901
+		}
+	}
+}
