@@ -16,10 +16,6 @@ Naturally anyone can host the mod wherever they want, but the ruleset applied in
 
 https://discord.gg/3RPYk5eQR7 - Vetting Link
 
-#### How do I install this mod?
-
-Check the Troubleshooting section of the Wiki.
-
 ## Puir History
 
 As previously stated this project is a derivative from the work of multiple forks with their respective authors, I don't have the time to list the specific additions of each iteration but at the very list I can link them here for those curious. To my (limited) knowledge the list goes as follows:
