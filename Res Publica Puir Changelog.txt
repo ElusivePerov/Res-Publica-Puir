@@ -1,3 +1,7 @@
+Changes for 1.1.1
+
+- Stability cleanup
+	- Also properly renamed the version to 1.1.1 since the warscore revamp is far bigger than just a 1.0.1 change.
 
 Changes for 1.0.1
 
