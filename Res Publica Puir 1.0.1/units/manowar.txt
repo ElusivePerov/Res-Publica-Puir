@@ -5,15 +5,16 @@ manowar = {
 	type = naval
 	sprite = Manowar
 	unit_type = big_ship
+	capital = yes
 	floating_flag = yes
-	colonial_points = 0
+	colonial_points = 5
 
 	#Core Abilities
 	priority = 25
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 4.5
-	weighted_value = 4.0
+	maximum_speed = 5
+	weighted_value = 3.0
 	can_build_overseas = no
 
 
@@ -30,13 +31,13 @@ manowar = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.1
-		artillery = 0.04 
+		clipper_convoy = 0.2 #0.24
+		artillery = 0.08 #0.16
 	}
 	
 	#Naval Abilties
-	hull = 3.5
-	gun_power = 6
+	hull = 4
+	gun_power = 8
 	fire_range = 0.5
 	evasion = 0
 }

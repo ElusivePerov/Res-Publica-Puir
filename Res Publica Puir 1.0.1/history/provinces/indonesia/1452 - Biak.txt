@@ -1,5 +1,7 @@
-owner = LCT
-controller = LCT
+owner = HUG
+controller = HUG
+add_core = HUG
 trade_goods = fish
 life_rating = 0
+
 set_province_flag = farm

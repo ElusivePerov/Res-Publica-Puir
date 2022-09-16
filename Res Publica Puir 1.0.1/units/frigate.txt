@@ -6,7 +6,7 @@ frigate = {
 	sprite = Frigate
 	unit_type = light_ship
 	floating_flag = yes
-	colonial_points = 0
+	colonial_points = 2
 	
 	#Core Abilities
 	priority = 13
@@ -19,22 +19,22 @@ frigate = {
 	#Building Costs
 	build_time = 180
 	build_cost = {
-		clipper_convoy = 5
-		artillery = 2 
-		canned_food = 2.5
+		clipper_convoy = 10
+		artillery = 4 #5
+		canned_food = 5
 	}
 	min_port_level = 1
 	limit_per_port = -1
-	supply_consumption_score = 1
+	supply_consumption_score = 2
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.065
-		artillery = 0.02
+		clipper_convoy = 0.13 #0.16
+		artillery = 0.04 #0.08
 	}
 	
 	#Naval Abilties
-	hull = 1
+	hull = 3
 	gun_power = 4
 	fire_range = 0.4
 	evasion = 0

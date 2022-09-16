@@ -1,6 +1,6 @@
-owner = LCT
-controller = LCT
-add_core = LCT
+owner = SMA
+controller = SMA
+add_core = SMA
 trade_goods = wool
 life_rating = 0
 

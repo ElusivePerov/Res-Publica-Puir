@@ -1,4 +1,9 @@
 
+Changes for 1.0.1
+
+- Warscore Revamp
+	- CBs now have a fixed value attached next to their titles to be used in place of the game's dynamic warscore values. (Credits to Onions for the suggestion behind the concept)
+
 Changes for 1.0.0
 
 - Austria

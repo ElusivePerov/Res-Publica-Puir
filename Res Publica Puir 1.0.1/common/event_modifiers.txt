@@ -1228,3 +1228,17 @@ classless_society_modifier = {
 }
 
 ### RGO Notes ### #WIP#
+
+#### State Sizing ####
+
+sizing_cooldown = {
+	icon = 8
+}
+
+sizing_cooldown1 = {
+	icon = 8
+}
+
+sizing_cooldown2 = {
+	icon = 8
+}

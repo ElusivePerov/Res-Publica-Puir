@@ -3,6 +3,10 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 GHO 	= 	"countries/Ghost Country.txt"
+SMA		= 	"countries/Small State.txt"
+MED		=	"countries/Medium State.txt"
+LRG		=	"countries/Large State.txt"
+HUG		=	"countries/Huge State.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"

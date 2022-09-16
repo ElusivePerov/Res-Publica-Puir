@@ -1,6 +1,6 @@
-owner = LCT
-controller = LCT
-add_core = LCT
+owner = MED
+controller = MED
+add_core = MED
 trade_goods = coal
 life_rating = 0
 
