@@ -970,7 +970,7 @@ acquire_state = {
 		}
 	}		
 
-	po_transfer_provinces = yes
+	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1068,7 +1068,7 @@ acquire_state_small = {
 		}
 	}		
 
-	po_transfer_provinces = yes
+	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1166,7 +1166,7 @@ acquire_state_medium = {
 		}
 	}		
 
-	po_transfer_provinces = yes
+	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1264,7 +1264,7 @@ acquire_state_large = {
 		}
 	}		
 
-	po_transfer_provinces = yes
+	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1362,7 +1362,7 @@ acquire_state_huge = {
 		}
 	}		
 
-	po_transfer_provinces = yes
+	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
 	
