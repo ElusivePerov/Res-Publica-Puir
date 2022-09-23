@@ -4,9 +4,11 @@ political_decisions = {
 		picture = host_nation
 		alert = yes
 		potential = {
- 			has_country_flag = host_nation
+			tag = LCT
+			ai = no
 		}
 		allow = { 
+			tag = LCT
 			ai = no
 		}
 		effect = {
@@ -19,9 +21,33 @@ political_decisions = {
 		}
 	}
 
-    ###### UNSIEGE SYSTEM ######
+    Kick_player = {
+        potential = {
+ 			tag = LCT
+            ai = no
+        }
+        allow = {
+			tag = LCT
+            ai = no
+        }
+        effect = {
+            any_country = {
+                Limit = {
+                    NOT = {
+                        alliance_with = THIS
+                        has_country_flag = host_nation
+                    }
+                    ai = no
+                }
+                country_event = 476009
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
 
-    open_unsiege_system = {
+	open_unsiege_system = {
         potential = {
  			tag = LCT
             ai = no
@@ -131,18 +157,18 @@ political_decisions = {
             factor = 0
         }
     }	
-
-	###### MEME DECISIONS ######
-
+	
 	total_war_cb = {
 		picture = "development_bio_weapons"
 		alert = yes
 		potential = {
- 			has_country_flag = host_nation
+			tag = LCT
+			ai = no
 			NOT = { has_global_flag = total_war_cbs_enabled }
 			has_global_flag = total_war_cb_safety_off
 		}
 		allow = { 
+			tag = LCT
 			ai = no
 		}
 		effect = {
@@ -154,53 +180,17 @@ political_decisions = {
 		picture = "development_bio_weapons"
 		alert = yes
 		potential = {
- 			has_country_flag = host_nation
+			tag = LCT
+			ai = no
 			NOT = { has_global_flag = total_war_cb_safety_off }
 			NOT = { has_global_flag = total_war_cbs_enabled }
 		}
 		allow = { 
+			tag = LCT
 			ai = no
 		}
 		effect = {
 			set_global_flag = total_war_cb_safety_off
-		}
-	}
-
-	develop_bioweapons = {
-		picture = "development_bio_weapons"
-			potential = {
-			ai = no
-			tag = LCT
-			NOT = { has_global_flag = enable_bioweapons }
-			}
-		
-			allow = {
-			tag = LCT
-			}
-		
-			effect = {
-				set_global_flag = enable_bioweapons
-				set_global_flag = zombies_allowed
-			}
-	}
-	
-	use_experimental_bioweapon = {
-		picture = "end_strategic_bombardment"
-		
-			potential = {
-			ai = no
-			tag = LCT
-			has_global_flag = enable_bioweapons
-			has_global_flag = zombies_allowed
-			ai = no
-			}
-		
-			allow = {
-			tag = LCT
-			}
-		
-			effect = {
-				country_event = 999901
 		}
 	}
 }

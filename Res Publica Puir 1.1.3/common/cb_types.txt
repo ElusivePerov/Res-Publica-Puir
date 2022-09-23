@@ -519,7 +519,6 @@ acquire_core_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		NOT = { 
 			OR = { 
@@ -582,7 +581,6 @@ acquire_core_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		NOT = { 
 			OR = { 
@@ -645,7 +643,6 @@ acquire_core_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		NOT = { 
 			OR = { 
@@ -708,7 +705,6 @@ acquire_core_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		NOT = { 
 			OR = { 
@@ -1004,7 +1000,6 @@ acquire_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
@@ -1102,7 +1097,6 @@ acquire_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
@@ -1200,7 +1194,6 @@ acquire_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
@@ -1298,7 +1291,6 @@ acquire_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
@@ -1498,7 +1490,6 @@ acquire_state_small_midgame = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -1598,7 +1589,6 @@ acquire_state_medium_midgame = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -1698,7 +1688,6 @@ acquire_state_large_midgame = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -1798,7 +1787,6 @@ acquire_state_huge_midgame = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -1997,7 +1985,6 @@ acquire_state_small_late = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -2095,7 +2082,6 @@ acquire_state_medium_late = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -2194,7 +2180,6 @@ acquire_state_large_late = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -2293,7 +2278,6 @@ acquire_state_huge_late = {
 	construction_speed = 0.5
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		this = { NOT = { badboy = 1 } }
 		AND = {
@@ -4472,7 +4456,6 @@ take_capital_earlygame = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		ai = yes
 		NOT = { tag = LCT  tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		NOT = { year = 1870 }
 		this = { NOT = { badboy = 1 } }
@@ -4921,7 +4904,6 @@ take_capital_huge_earlygame = {
 }
     
 take_capital_midgame = {
-	ai = yes
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -5395,7 +5377,6 @@ take_capital_huge_midgame = {
 }
      
 take_capital_lategame = {
-	ai = yes
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
@@ -5913,7 +5894,6 @@ acquire_treaty_port = {
 			}
 		}
 		civilized = no
-		tag = CHI
 		number_of_states = 2
 		OR = { 
 			owns = 1566

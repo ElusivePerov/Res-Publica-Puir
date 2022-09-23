@@ -266,7 +266,6 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA700001"
-		all_core = { remove_core = THIS }
 		SAR = { inherit = THIS }
 		ai_chance = { factor = 500 }	
 	}
