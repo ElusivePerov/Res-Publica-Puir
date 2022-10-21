@@ -1,3 +1,3 @@
-name = "Res Publica Puir 1.1.2" 
-path = "mod/Res Publica Puir 1.1.2" 
-user_dir = "Res Publica Puir 1.1.2" 
+name = "Res Publica Puir 1.1.3" 
+path = "mod/Res Publica Puir 1.1.3" 
+user_dir = "Res Publica Puir 1.1.3" 

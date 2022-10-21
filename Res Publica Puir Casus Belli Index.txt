@@ -1,0 +1,99 @@
+
+INCOMPLETE
+
+/SIZED FIXED COST CBs/
+
+ Unfortunately, the costs aren't 100% fixed for the land transfering CBs.
+ Each CB in the game uses 'peace options' or po_types which have two key elements: 
+  1. define the effect of the CB 
+  2. define the WS cost
+ The WS cost itself is defined by two separate elements: 
+  1. the peace cost from the po_type
+  2. the peace cost factor from the CB
+ In all the practical po_types that cause land transfers the peace cost can't be altered, only the peace cost factor in the CB.
+ The method used introduces a secondary po_type that is used only for it's peace cost to dilute the influence of the land transfering po_type's variable peace cost. This secondary po_type is po_gunboat which has the effect of causing the defeated to pay all their debts on peace out.
+ For example this is what the equation for Acquire State Large Early looks like: 
+ (po_demand_state peace cost = 10 . number of provinces in the state + number of factories in the state + level of naval base in the state + fort levels in the state) + (po_gunboat = 2000) . (peace cost factor = 0,029) = 58
+ It's worth noting a few things about the equation: 
+  • it assumes minimal influence from the po_demand_state peace cost variables
+  • the game adds up two 0s to the peace cost
+  • the peace cost factor doesn't go lower than 0,001 meaning it bottlenecks the equation as the peace cost itself is seemingly uncapped
+  • great war WS reduction is applied multiplicatively at the end of the equation
+
+ With the above in mind expect the values below to have a variance of 1 ~ 5 WS depending on factories, forts, etc.
+
+ 10 WS / Infamy Free - Acquire Core Small 
+ 14 WS / Infamy Free - Acquire Core Medium
+ 18 WS / Infamy Free - Acquire Core Large
+ 22 WS / Infamy Free - Acquire Core Huge
+ 
+ Costs at 1836/Earlygame
+ 28 WS / 05.5 Infamy - Acquire State Small Early
+ 40 WS / 05.5 Infamy - Acquire State Medium Early
+ 58 WS / 05.5 Infamy - Acquire State Large Early
+ 80 WS / 05.5 Infamy - Acquire State Huge Early
+ 
+ Costs at 1870/Midgame
+ 22 WS / 05.5 Infamy - Acquire State Small Midgame
+ 32 WS / 05.5 Infamy - Acquire State Medium Midgame
+ 42 WS / 05.5 Infamy - Acquire State Large Midgame
+ 62 WS / 05.5 Infamy - Acquire State Huge Midgame
+ 
+ Costs at 1900/Lategame
+ 18 WS / 05.5 Infamy - Acquire State Small Lategame
+ 26 WS / 05.5 Infamy - Acquire State Medium Lategame
+ 34 WS / 05.5 Infamy - Acquire State Large Lategame
+ 48 WS / 05.5 Infamy - Acquire State Huge Lategame
+ 
+ Free Peoples CBs have the same WS costs as Acquire State CBs but cost 03.3 infamy instead of 05.5
+
+/FIXED COST CBs/
+
+ 85 WS / 05.0 Infamy - Estabilish Protectorate
+ 85 WS / 05.0 Infamy - Minor Conquest
+ 85 WS / 11.0 Infamy - Conquest
+
+ 59 WS / Infamy Free - Restore Order
+ 85 WS / Infamy Free - Unite the nation
+ 
+ 02 WS / 01.2 Infamy - Dismantle Fortifications
+ 15 WS / 02.5 Infamy - Demand Reparations
+ 15 WS / 03.0 Infamy - Humiliate
+ 
+ 10 WS / 01.0 Infamy - Add to Sphere
+ 10 WS / 01.0 Infamy - Take from Sphere
+ 
+ 25 WS / 03.7 Infamy - Release Puppet
+ 85 WS / 05.0 Infamy - Make Small Puppet
+ 85 WS / 10.0 Infamy - Make Puppet
+ 85 WS / 20.0 Infamy - Make Large Puppet
+ 
+ 01 WS / Infamy Free - Status Quo
+
+/DYNAMIC COST CBs/
+
+ 02.5 Infamy - Acquire Treaty Port
+ 02.5 Infamy - Place in the Sun Earlygame (1836 - 1900)
+ 02.0 Infamy - Place in the Sun Lategame (1900)
+ 
+ 02.5 Infamy - Demand Concession Earlygame
+ 05.0 Infamy - Demand Core Concession China
+ 05.0 Infamy - Demand Core COncession Japan
+ 
+ 07.5 Infamy - Take Capital Earlygame (1836 - 1870)
+ 07.5 Infamy - Take Capital Midgame (1870 - 1900)
+ 07.5 Infamy - Take Capital Lategame (1900)
+ 
+ 06.5 Infamy - Liberate Country Earlygame (1836 - 1870)
+ 06.5 Infamy - Liberate Country Midgame (1870 - 1900)
+ 06.5 Infamy - Liberate Country Lategame (1900 - 1919)
+ 06.5 Infamy - Liberate Country Verylategame (1919)
+
+/SIZE FLAGS/
+
+ Updates yearly by event fired by a debug nation
+ 
+ Small States = Any State under 350k in 1836 // 420k in 1870 // 500k in 1900 
+ Med.  States = Any State under 680k in 1836 // 760k in 1870 // 820k in 1900
+ Large States = Any State under 900k in 1836 // 1m in 1870 // 1,1m in 1900
+ Huge  States = Any State above 900k in 1836 // 1m in 1870 // 1,1m in 1900
