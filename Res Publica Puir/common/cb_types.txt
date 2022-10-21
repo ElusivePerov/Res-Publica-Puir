@@ -2528,8 +2528,8 @@ negotiated_transfer = {
 
 
 	can_use = {
-		#THIS = { ai = no }
-		#ai = no
+		THIS = { ai = no }
+		ai = no
 		number_of_states = 2 # annex if you want their last state
 		NOT = { truce_with = THIS } 
 		THIS = { civilized = yes }
@@ -2541,7 +2541,7 @@ negotiated_transfer = {
 			FROM = { substate_of = THIS }
 			FROM = { tag = THIS } 
 			AND = { 
-				#FROM = { ai = no } 
+				FROM = { ai = no } 
 				THIS = { alliance_with = FROM }
 			} 
 		}
