@@ -4,7 +4,7 @@ controller = FRA
 
 add_core = FRA
 
-#add_core = GER
+
 
 trade_goods = iron
 

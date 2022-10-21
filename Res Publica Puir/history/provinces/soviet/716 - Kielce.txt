@@ -4,9 +4,9 @@ controller = RUS
 
 add_core = PLC
 
-#add_core = PLC
 
-#add_core = CPL
+
+
 trade_goods = wool
 
 life_rating = 39

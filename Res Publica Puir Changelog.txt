@@ -1,6 +1,4 @@
 
-///INDEV///
-
 Changes for 1.2.0
 
 

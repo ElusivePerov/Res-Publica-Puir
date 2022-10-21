@@ -1,10 +1,10 @@
 owner = KRA
 controller = KRA
-#add_core = KRA
+
 add_core = PLC
-#add_core = RUT
-#add_core = PLC
-##add_core = RUT
+
+
+#
 trade_goods = coal
 life_rating = 40
 1861.1.1 = {
