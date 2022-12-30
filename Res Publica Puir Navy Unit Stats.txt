@@ -1,0 +1,61 @@
+--------------Stat growth for Ships in Res_Publica_Puir--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1836 Tech with all Inventions
+
+Frigates - 4 attack / 1 hull / 40 range / 9 kph / 100% supply consumption - 1 Supply Weight
+Commerce Raiders - 10 attack / 15 torpedo attack / 12 hull / 60 range / 11 kph / 100% supply consumption - 7 Supply Weight | 1 per lvl 2+ port
+L Cruiser - 28 attack / 15 torpedo attack / 33 hull / 120 range / 8.9 kph / 100% supply consumption - 25 Supply Weight
+
+Man'o'wars - 6 attack / 3.5 hull / 50 range / 5.5 kph / 100% supply consumption - 2 Supply Weight
+Ironclads - 16 attack / 26 hull / 85 range / 8 kph / 100% supply consumption - 13 Supply Weight
+Destroyers - 11.6 attack / 20.1 torpedo attack / 23.6 hull / 100 range / 10.7 kph / 100% supply consumption - 25 Supply Weight | 3 per lvl 3+ port
+H Cruiser - 162 attack / 210 hull / 140 range / 6.8 kph / 100% supply consumption - 100 Supply Weight | 1 per lvl 4+ port
+Battleships - 401 attack / 491 hull / 170 range / 5.1 kph / 100% supply consumption - 250 Supply Weight | 1 per lvl 5+ port
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1860 Tech with all Inventions
+
+Frigates - 4 attack / 1 hull / 40 range / 9 kph / 100% supply consumption - 1 Supply Weight
+Commerce Raiders - 10 attack / 15 torpedo attack / 12 hull / 60 range / 11 kph / 100% supply consumption - 7 Supply Weight | 1 per lvl 2+ port
+L Cruiser - 28 attack / 15 torpedo attack / 33 hull / 120 range / 8.9 kph / 100% supply consumption - 25 Supply Weight
+
+Man'o'wars - 6 attack / 3.5 hull / 50 range / 5.5 kph / 100% supply consumption - 2 Supply Weight
+Ironclads - 16 attack / 26 hull / 85 range / 8 kph / 100% supply consumption - 13 Supply Weight
+Destroyers - 11.6 attack / 20.1 torpedo attack / 23.6 hull / 100 range / 10.7 kph / 100% supply consumption - 25 Supply Weight | 3 per lvl 3+ port
+H Cruiser - 162 attack / 210 hull / 140 range / 6.8 kph / 100% supply consumption - 100 Supply Weight | 1 per lvl 4+ port
+Battleships - 401 attack / 491 hull / 170 range / 5.1 kph / 100% supply consumption - 250 Supply Weight | 1 per lvl 5+ port
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1880 Tech with all Inventions
+
+Frigates - 4 attack / 1 hull / 40 range / 9 kph / 100% supply consumption - 1 Supply Weight
+Commerce Raiders - 10 attack / 15 torpedo attack / 12 hull / 60 range / 11 kph / 100% supply consumption - 7 Supply Weight | 1 per lvl 2+ port
+L Cruiser - 28 attack / 15 torpedo attack / 33 hull / 120 range / 8.9 kph / 100% supply consumption - 25 Supply Weight
+
+Man'o'wars - 6 attack / 3.5 hull / 50 range / 5.5 kph / 100% supply consumption - 2 Supply Weight
+Ironclads - 16 attack / 26 hull / 85 range / 8 kph / 100% supply consumption - 13 Supply Weight
+Destroyers - 11.6 attack / 20.1 torpedo attack / 23.6 hull / 100 range / 10.7 kph / 100% supply consumption - 25 Supply Weight | 3 per lvl 3+ port
+H Cruiser - 162 attack / 210 hull / 140 range / 6.8 kph / 100% supply consumption - 100 Supply Weight | 1 per lvl 4+ port
+Battleships - 401 attack / 491 hull / 170 range / 5.1 kph / 100% supply consumption - 250 Supply Weight | 1 per lvl 5+ port
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1900 Tech with all Inventions
+
+Frigates - 4 attack / 1 hull / 40 range / 9 kph / 100% supply consumption - 1 Supply Weight
+Commerce Raiders - 10 attack / 15 torpedo attack / 12 hull / 60 range / 11 kph / 100% supply consumption - 7 Supply Weight | 1 per lvl 2+ port
+L Cruiser - 28 attack / 15 torpedo attack / 33 hull / 120 range / 8.9 kph / 100% supply consumption - 25 Supply Weight
+
+Man'o'wars - 6 attack / 3.5 hull / 50 range / 5.5 kph / 100% supply consumption - 2 Supply Weight
+Ironclads - 16 attack / 26 hull / 85 range / 8 kph / 100% supply consumption - 13 Supply Weight
+Destroyers - 11.6 attack / 20.1 torpedo attack / 23.6 hull / 100 range / 10.7 kph / 100% supply consumption - 25 Supply Weight | 3 per lvl 3+ port
+H Cruiser - 162 attack / 210 hull / 140 range / 6.8 kph / 100% supply consumption - 100 Supply Weight | 1 per lvl 4+ port
+Battleships - 401 attack / 491 hull / 170 range / 5.1 kph / 100% supply consumption - 250 Supply Weight | 1 per lvl 5+ port
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1919 Tech with all Inventions
+
+Frigates - 4 attack / 1 hull / 40 range / 9 kph / 100% supply consumption - 1 Supply Weight
+Commerce Raiders - 10 attack / 15 torpedo attack / 12 hull / 60 range / 11 kph / 100% supply consumption - 7 Supply Weight | 1 per lvl 2+ port
+L Cruiser - 28 attack / 15 torpedo attack / 33 hull / 120 range / 8.9 kph / 100% supply consumption - 25 Supply Weight
+
+Man'o'wars - 6 attack / 3.5 hull / 50 range / 5.5 kph / 100% supply consumption - 2 Supply Weight
+Ironclads - 16 attack / 26 hull / 85 range / 8 kph / 100% supply consumption - 13 Supply Weight
+Destroyers - 11.6 attack / 20.1 torpedo attack / 23.6 hull / 100 range / 10.7 kph / 100% supply consumption - 25 Supply Weight | 3 per lvl 3+ port
+H Cruiser - 162 attack / 210 hull / 140 range / 6.8 kph / 100% supply consumption - 100 Supply Weight | 1 per lvl 4+ port
+Battleships - 401 attack / 491 hull / 170 range / 5.1 kph / 100% supply consumption - 250 Supply Weight | 1 per lvl 5+ port
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,7 +1,0 @@
-owner = SMA
-controller = SMA
-add_core = SMA
-trade_goods = wool
-life_rating = 0
-
-set_province_flag = farm

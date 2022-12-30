@@ -1,0 +1,1044 @@
+#Cundinamarca Region (584000)
+#Ruled by Colombia 1836
+#Bogota (240000/60000 POPS)
+2247 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 1445
+    }
+
+    bureaucrats = {
+        culture = north_andean
+        religion = catholic
+        size = 259
+    }
+
+    officers = {
+        culture = north_andean
+        religion = catholic
+        size = 201
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 606
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 3005
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 15092
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 59967
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 231
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 2860
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 1445
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 231
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 4277
+    }
+}
+#Ibaque (88000/22000 POPS)
+2248 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 520
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 231
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 1098
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1270
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 18883
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 11
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 786
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 289
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 2138
+    }
+}
+#Tunja (56000/14000 POPS)
+2249 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 346
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 520
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 172
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 9305
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 289
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 5433
+    }
+}
+#Manizales (116000/29000 POPS)
+2250 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 722
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 317
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 1676
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1271
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 30807
+    }
+}
+#Cucuta (84000/21000 POPS)
+2251 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 404
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 924
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 5258
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 11790
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 289
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 5375
+    }
+}
+#Antioquia Region (452000)
+#Ruled by Colombia 1836
+#Medellin (128000/32000 POPS)
+2252 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 751
+    }
+
+    bureaucrats = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    officers = {
+        culture = north_andean
+        religion = catholic
+        size = 144
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 231
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 1271
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1385
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 19507
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 462
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 6328
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 3468
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 3236
+    }
+}
+#Quibdo (48000/12000 POPS)
+2253 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 289
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 289
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 143
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 5086
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 404
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 1734
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 5780
+    }
+}
+#Cartagena de Indias (144000/36000 POPS)
+2254 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 809
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 144
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 751
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1530
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 12224
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 1213
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 18119
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 4624
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 2138
+    }
+}
+#Barranquilla (132000/33000 POPS)
+2255 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 751
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 144
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 751
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1513
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 12224
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 1040
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 17108
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 3468
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 11
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 1075
+    }
+}
+#Cauca Region (300000)
+#Ruled by Colombia 1836
+#Cali (92000/23000 POPS)
+2256 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 548
+    }
+
+    bureaucrats = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    officers = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 201
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 982
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1356
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 16530
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 2312
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 867
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = animist
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = animist
+        size = 173
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = animist
+        size = 3207
+    }
+}
+#Popayan (68000/17000 POPS)
+2257 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 404
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 635
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1230
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 10415
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 346
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 6415
+    }
+}
+#Buenaventura (60000/15000 POPS)
+2258 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 375
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 520
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 143
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 3583
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 2080
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 5780
+    }
+}
+#Pasto (80000/20000 POPS)
+2259 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 490
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 115
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 520
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 1259
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 8160
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 57
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 635
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 11877
+    }
+}
+#Rio Negro Region (128000) #see Brazil.txt for balance of region
+#Ruled by Colombia 1836
+#San Jose del Guaviare (36000/9000 POPS)
+2260 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 114
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 3091
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = animist
+        size = 115
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = animist
+        size = 57
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = animist
+        size = 346
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = animist
+        size = 6328
+    }
+}
+#Obando (20000/5000 POPS)
+2261 = {
+    aristocrats = {
+        culture = brazilian
+        religion = animist
+        size = 86
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = animist
+        size = 57
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = animist
+        size = 289
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = animist
+        size = 57
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = animist
+        size = 5288
+    }
+}
+#Casanare (60000/15000 POPS)
+2262 = {
+    aristocrats = {
+        culture = north_andean
+        religion = catholic
+        size = 144
+    }
+
+    bureaucrats = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    officers = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 86
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 231
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = catholic
+        size = 171
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 4046
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = animist
+        size = 144
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = animist
+        size = 86
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = animist
+        size = 462
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = animist
+        size = 8467
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = catholic
+        size = 28
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = catholic
+        size = 173
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = catholic
+        size = 1791
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = catholic
+        size = 1445
+    }
+}
+#El Encanto (12000/3000 POPS)
+2263 = {
+    aristocrats = {
+        culture = brazilian
+        religion = animist
+        size = 57
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = animist
+        size = 86
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = animist
+        size = 173
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = animist
+        size = 28
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = animist
+        size = 3121
+    }
+}
