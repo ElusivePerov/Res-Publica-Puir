@@ -53,6 +53,6 @@ Rennes from the Victoria II Modding Server and his near infinite patience to hel
 
 Potat for his help and advice with modding.
 
-KevinG from the Victoria Universalis community for his help in the Great War Bookmark.
+KevinG from the Victoria Universalis community for his many inovations to Victoria II modding that puir inherits.
 
 And the community at large for feedback and discussion.
