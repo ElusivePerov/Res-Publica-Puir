@@ -6,15 +6,14 @@ Res Publica Puir is a fork of a long line of forks from the Victoria II PUIR mod
 
 Improvement is subjective so I can only claim to stay faithful to my own definition. Which is to keep the game competitive and dynamic by offering as many tools as possible for the players to keep themselves in check and let them define the balance of power in the game with their own hands.
 
-Although a better answer is in the Wiki where a proper introduction is given to both the mod itself and Victoria II competitive multiplayer.
-
-(WORK IN PROGRESS)
+Although a better answer will be in the Wiki where a proper introduction is given to both the mod itself and Victoria II competitive multiplayer.
+But work on this wiki is going to take a considerable while to even start.
 
 #### Since it's a multiplayer mod, where is it hosted?
 
-Naturally anyone can host the mod wherever they want, but the ruleset applied in the game defines the gameplay so the place I recommend going to in order to see the mod being played as it's intendend is in the IGoRS MP server where I host it personally on saturdays.
+Naturally anyone can host the mod wherever they want, but the ruleset applied in the game defines the gameplay nearly as much as the mod itself. With that said my personal recommendation is the OOS Club where I personally host the mod from time to time.
 
-https://discord.gg/3RPYk5eQR7 - Vetting Link
+https://discord.gg/TM9yeaYG5U - Vetting Link
 
 ## Puir History
 
