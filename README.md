@@ -6,8 +6,7 @@ Res Publica Puir is a fork of a long line of forks from the Victoria II PUIR mod
 
 Improvement is subjective so I can only claim to stay faithful to my own definition. Which is to keep the game competitive and dynamic by offering as many tools as possible for the players to keep themselves in check and let them define the balance of power in the game with their own hands.
 
-Although a better answer will be in the Wiki where a proper introduction is given to both the mod itself and Victoria II competitive multiplayer.
-But work on this wiki is going to take a considerable while to even start.
+Although a better answer will be in the Wiki where a proper introduction is given to both the mod itself and Victoria II competitive multiplayer. I'll take a while to start work on this wiki though so we'll put a pin on it for now.
 
 #### Since it's a multiplayer mod, where is it hosted?
 
