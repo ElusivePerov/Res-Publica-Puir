@@ -12,7 +12,7 @@ Although a better answer will be in the Wiki section where I'll lay down a detai
 
 Naturally anyone can host the mod wherever they want, but the ruleset applied in the game defines the gameplay nearly as much as the mod itself. With that said my personal recommendation is the OOS Club where I personally host the mod from time to time.
 
-https://discord.gg/TM9yeaYG5U - Vetting Link
+https://discord.gg/TM9yeaYG5U
 
 ## Puir History
 
