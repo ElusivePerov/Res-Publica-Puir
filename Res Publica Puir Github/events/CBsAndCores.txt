@@ -581,17 +581,14 @@ province_event = {
 		}
 		controlled_by = THIS
 		owned_by = THIS
-		is_colonial = no
 		OR = {
 			is_primary_culture = yes
 			is_accepted_culture = yes
 		}
-		any_neighbor_province = { is_core = THIS }
-		owner = {
-			civilized = yes
-			is_vassal = no
-			war = no
-		}
+		OR = {
+			any_neighbor_province = { is_core = THIS }
+			state_scope = { total_pops = 100000 }
+		}	
 	}
 	
 	mean_time_to_happen = {
@@ -603,18 +600,6 @@ province_event = {
 		modifier = {
 			factor = 0.75
 			owner = { revolution_n_counterrevolution = 1 }
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 2
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 3
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 4
 		}
 		modifier = {
 			factor = 1.2
@@ -643,7 +628,6 @@ province_event = {
 					NOT = { has_province_modifier = core_integration }
 					NOT = { has_province_modifier = integration_refusal }
 					controlled_by = THIS
-					is_colonial = no
 				}
 				add_province_modifier = {
 					name = core_integration
@@ -692,7 +676,6 @@ province_event = {
 					NOT = { has_province_modifier = core_integration }
 					NOT = { has_province_modifier = integration_refusal }
 					controlled_by = THIS
-					is_colonial = no
 				}
 				add_province_modifier = {
 					name = integration_refusal
@@ -774,15 +757,13 @@ province_event = {
 		}
 		controlled_by = THIS
 		owned_by = THIS
-		is_colonial = no
 		OR = {
 			is_primary_culture = yes
 			is_accepted_culture = yes
 		}
-		any_neighbor_province = { is_core = THIS }
-		owner = {
-			civilized = yes
-			war = no
+		OR = {
+			any_neighbor_province = { is_core = THIS }
+			state_scope = { total_pops = 100000 }
 		}
 	}
 	
@@ -795,18 +776,6 @@ province_event = {
 		modifier = {
 			factor = 0.75
 			owner = { revolution_n_counterrevolution = 1 }
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 2
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 3
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 4
 		}
 		modifier = {
 			factor = 1.2

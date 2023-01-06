@@ -581,24 +581,3 @@ country_event = {
 			}
 	}
 }
-#Meme Event to annex the entire world (used for river crossing tests)
-#country_event = {
-#	id = 
-#	title = "EVTT6063"
-#	desc = "EVTD6603"
-#	picture = "rome_buildings"
-#
-#	trigger = {
-#		YEAR = 1836
-#		AI = YES
-#	}
-#	
-#	allow_multiple_instances = yes
-#	
-#	mean_time_to_happen = { days = 1 }
-#	
-#	option = {
-#	name = "HELL" 
-#		PRU = { inherit = THIS }
-#	}
-#}

@@ -139,9 +139,6 @@ AGRESSION_PUNITIVE_EXPEDITION_WAR_NAME;The $ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;
 NORMAL_PUNITIVE_EXPEDITION_WAR_NAME_ENG_QNG;The $ORDER$Opium War;;;;;;;;;;;;;;;;;x,,,
 AGRESSION_PUNITIVE_EXPEDITION_WAR_NAME_ENG_QNG;The $ORDER$Opium War;;;;;;;;;;;;;;;;;x,,,
 #############################################;;;;;;;;;;;;;;x
-double_down_in_the_balkans_title;Double Down in the Balkans;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-double_down_in_the_balkans_desc;For too long have the peoples of the Balkans thwarted our efforts of expansion. Let us focus all our attention to the re-education and assimilation of these barbaric peoples.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#############################################;;;;;;;;;;;;;;x
 #Additional Provinces;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 PROV3258;Benevento;;;;;;;;;;;;;;;;;;;;;;;;;;;

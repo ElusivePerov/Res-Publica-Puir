@@ -1,521 +1,151 @@
-
-2.0.0
+2.1.0
 
 ----------------------------------------------------------------------------------------------------
 Nations and Regions
 ----------------------------------------------------------------------------------------------------
 
---- France
-
-	- Added 'Vive la France' decision [X]
-		Requires 250 prestige and to be a GP to enact. It adds the 'Fierté Française' modifier which grants 0.1% pop growth for 25 years.
-		Getting humiliated while the modifier is active will instantly end it.
-
-	- Every French 30 LR province has been raised to 31 LR [X]
-
-	- France now starts with Positivism [X]
-		In order to properly emulate France's historical power projection, a small nudge into it's RP generation and literacy gain is required for it have a better hold on to an up to date army and navy.
-
-    - 'Proclaim Second Empire' no longer blocked by being a democracy [X]
-
-	- Claim Savoy requirements no longer involves Italy [X]
-		Previously the only scenario where this decision was used is when Italy forms and keeps Savoie, this change allows the decision more flexibility to reflect the different outcomes that can happen in the Italian peninsula.
-
-	- 'Haussman's Renovations' decision is now visible from the start [X]
-		Previously required either 'Realism' or 'Early Railroad' to be researched first.
-
-	- 'Enforce the Bardo Treaty' no longer requires 'Nat. and Imperialism' and 'Machine Guns' to be researched [X]
-		This decision was useless previous to this change since it's nigh impossible for Tunis to remain independant until 1870, now this decision is effectively 1 extra infamy (the decision costs 6 and the cb costs 5) and spending influence in exchange for instant annexation.
-
-    - Localisation Debt [X]
-
---- UK
-
-	- Blocked Irish assimilation [X]
-
---- Belgium
-
-	- Countrywide LR was raised from 35 to 36 [X]
-	- Brussels' LR was raised from 35 to 38 [X]
-	- Now starts with Mechanical Production and Medicine [X]
-	- Now starts with an additional 'Mobe Stack' [X]
-	- New decision that grants an unique modifier that increases assimilation [X]
-        'The Belgian People' requires Nat. Imp and grants a permanent 20% assimilation rate modifier, Equality NV provides a 50% modifier for comparison.
-        A quick test you can run to measure the effect of the decision is using the console to grant yourself nat imp and checking the assimlation of the dutch in maastricht.
-        On my end they went from an average of 23 dutch into flemish per day to 28 dutch into flemish per day.
-	- Wiped out 'Treaty of London' events [X]
-    - Localisation Debt [X]
-
---- Portugal
-
-    - Starts in the UK sphere now. [X]
-
---- Egypt
-
-    - Cleaned up ghost provinces from Middle Egypt (Suhaj) and Western Desert (Bawiti) [X]
-    - Merged Middle Egypt (166.25k), Upper Egypt (72.91k) and Red Sea Coast (23k) into Upper Egypt (262.16k) [X]
-    - Merged Dongola (74k), Sudan (287.40k), Darfur (59k) and Kordofan (131.20k) into Nubia (551.60k) [X]
-
---- New World
-
-	- Toned down western hemisphere pop buffs. [X]
-
-        South America
-
-		Brasil    2.61m -> 1.79m 32% less (1.50m vanilla) [X]
-
-        Argentina  767k -> 506k 34% less (237k vanilla) [X]
-        Uruguay    155k -> 102k 34% less ( 50k vanilla) [X]
-        Paraguay   584k -> 350k 40% less (166k vanilla) [X]
-        Chile      919k -> 570k 38% less (270k vanilla) [X]
-        Platinean 2,42m -> 1,52m 37% less (723k vanilla) [X]
-
-        Bolívia    696k -> 472k 32% less (359k vanilla) [X]
-        Peru       735k -> 490k 33% less (411k vanilla) [X]
-        Ecuador    374k -> 265k 29% less (220k vanilla) [X]
-        Colombia   707k -> 480k 32% less (404k vanilla) [X]
-        Venezuela  418k -> 300k 28% less (245k vanilla) [X]
-        Andean    2,93m -> 2,01m 32% less (1,63m vanilla) [X]
-
-        Total     7.96m -> 5.30m 33% less (3,86m vanilla) [X]
-
-        North America
-        
-        México   2.59m -> 2.02m 22% less (1.78m vanilla) [X]
-
-     - Port Count Changes
-
-        South America
-
-        8 Gran Colombia
-        7 Brasil (Post Redraw)
-        6 Gran Colombia (Post Redraw)
-        6 Brasil
-        3 Argentina
-        3 Andean Federation
-        2 Chile
-        1 Uruguay
-
-        23 Total
-        22 New Total
-
-    - Fixed and adjusted post pop reduction OOBs [X]
-    - Renamed generals so the same three clones aren't leading south america [X]
-    - Cleaned up noculture in Paraguay [X]
-
 --- USA
 
-    - Added one artillery factory to Massachusetts and Maryland [X]
+    - Simplified American Civil War event chain [X]
 
---- Brasil
+         In the current system MTTHs and consciousness are used to decide when the civil war takes place.
+         The key issue is that interacting with consciousness is mainly handled by consciousness events. 
+         There's 22 of those events, and they all have relatively short MTTHs.
+         The end result is hundreds of events being clicked away spanning ingame decades depending on chance.
 
-	- Amazonas (18.46k) and Pará (23.71k) have been merged into Região Norte (42.17k) [X]
-    - Belém (16.93k), Palmas (3.34k) and Forte do Príncipe (4.56k) moved to Região Norte (42.17k -> 67k) [X]
-    - Mato Grosso renamed to Centro-Oeste [X]
-    - Rio Grande do Sul renanmed to Região Sul [X]
-    - Guarapuava (12.70k) and Castro (21.52k) moved to Região Sul (278.65k -> 312.87k) from São Paulo (149.22k -> 115k) [X]
-    - Iguape (18.17k) and Santos (37.36k) moved from Rio de Janeiro (351.94k -> 296.41k) into São Paulo (115k -> 170.53k) [X]
+         This change addresses that problem by cutting down from a total number of events from 28 into 12.
+         Each one has a differing set of options that ultimately allow you to delay or shorten the MTTH for the Civil War.
+         That is accomplished with the "Slavery Pressure" variable that is used to calculate the MTTH for the final events.
+         There's a decision you can click to see your current Pressure value.
 
---- Andine Federation
+         1. Missouri Compromise # 1820 [X]
+            # 3 months MTTH
+            # Kicks off the event chain
+            # Sets the 'Slavery Pressure' variable at 0
 
-    - Potosí renamed to Chuquiasca y Potosí [X]
-    - Santa Cruz (22.42k) merged into Chuquiasca y Potosí (103.68k -> 126.10k) [X]
-    - Puerto Guaraní (4.87k) and Fortin Falcon (4.43k) merged into Chuquiasca y Potosí (126.10k -> 133.22 accounting for Cochinoca below) [X]
-    - Cochinoca (2.18k), Xolotas (10.99k) and Formosa (13.17k) merged into La Pampa (23.34k) [X]
+         2. The Amistad Decision #1841 [X]
+            # Requires Missouri Compromise to have fired
+            # 60 months MTTH / 12 months after 1841
+            # Dred Scott v. Sandford can now fire
+            # Opt. A +0 Pressure / Opt. B +1 Pressure / Opt. C +2 Pressure
 
---- Gran Colombia
+         3. Prigg v. Pennsylvania # 1842 [X]
+            # Requires The Amistad Decision to have fired
+            # 12 months MTTH / 6 months after 1842
+            # Opt. A +2 Pressure / Opt. B +1 Pressure
 
-    - Cundinamarca (248.35k) and Guaviare (36.97k) merged into Cundinmarca y Guaviare (285.42k) [X]
-    - Bolívar (60.39k) and Miranda (108.72k) merged into Bolívar y Miranda (169.11k) [X]
-    - Antioquía (155.38k) and Zulia (131.83k) merged into Antióquia y Zulia (287.21k) [X]
+         4. Annexation of Texas # 1845 [X]
+            # This event will fire after acquiring a texan core, with a MTTH of 3 months
+            # Opt. A +1 Pressure / Opt. B +2 Pressure
+
+         5. Underground Railroad # 1849 [X]
+            # Requires Prigg v. Pennsylvania to have fired
+            # 84 months MTTH / 12 months after 1849
+            # Opt. A +1 Pressure / Opt. B +3 Pressure
+
+         6. Compromise of 1850 # 1850 [X]
+            # This event will fire after taking any combination of two states out of the below
+            # New Mexico / California / Arizona / Nevada-Utah
+            # Opt. A +3 Pressure / Opt. B +1 Pressure
+
+         7. Uncle Tom's Cabin # 1852 [X]
+         7a Whig Party expires [ ]
+            # Requires Underground Railroad to have fired
+            # 36 months MTTH / 12 months after 1852
+            # Opt. A +1 Pressure
+
+         8. Kansas-Nebraska Act # 1854 [X]
+         8a Republican party kicks in
+            # Requires Uncle Tom's Cabin to have fired
+            # 24 months MTTH / 12 months after 1854
+            # Opt. A leads to the event below
+            # Opt. A +2 Pressure / Opt. B +1 Pressure / Opt. C +4 Pressure
+
+         9. Bleeding Kansas # 1855 [X]
+            # Requires taking Opt. A in the event above
+            # 12 months MTTH
+            # Opt. A +3 Pressure
+
+         10. Dred Scott v. Sandford # 1857 [X]
+            # The MTTH of this event is calculated by the current 'Slavery Pressure' value
+            # It also requires The Amistad Decision to have fired
+            # 1200 months MTTH before 1840
+            # 600 months MTTH between  0 and 4  pressure
+            # 450 months MTTH between  5 and 7  pressure 
+            # 300 months MTTH between  8 and 11 pressure
+            # 150 months MTTH between 12 and 14 pressure
+            # 30  months MTTH between 15 and 20 pressure
+            # John Brown's Last Raid can now fire
+
+         11. John Brown's Last Raid # 1859 [X]
+            # Requires Dred Scott v. Sandford to have fired
+            # 24 months MTTH / 12 months after 1859
+
+         12. Secessionist Sentiments # N/A [X]
+            # Requires John Brown's Last Raid to have fired
+            # 7 days MTTH
+            # This event sets the cores of the CSA based on slave states
+
+         13. A House Divided # 1861 [X]
+            # Requires Secessionist Sentiments to have fired
+            # 12 months MTTH
+            # The final event that fires off the civil war
+
+         Credits to onions for his help with american civil war history.
+
+    - Removed decisions that only lowered consciousness [X]
+    - Homestead now guarantees year round migration [X]
+    - Fixed Indian Wars being unable to start [X]
+        The event checked if the province had a gold mine, and gold has been removed from regular nations.
+
+--- The Ottoman Empire
+
+ - 'Double Down in the Balkans' reworked into 'The Balkan Compromise'
+        No longer grants increased liferating for all european cores. [X]
+        No longer grants cores on serbian and greek cores [X]
+        No longer costs infamy [X]
+        No longer grants prestige, it now takes away 25 prestige [X]
+        Raises the militancy of sunni pops [X]
+        Requires state and gov instead of nat imp [X]
+        No longer exclusive with the ankara decision [X]     
+ 
+ - 'Move Capital to Ankara' reworked
+        No longer removes any accepted cultures [X]
+        No longer removes any cores [X]
+        No longer grants any cores [X]
+        No longer reduces prestige [X]
+        No longer reduces infamy [X]
+        Raises the consciouness of all pops [X]
+        No longer exclusive with the balkan decision [X]
+
+ - Now starts on 'Education' national value [X]
+
+ - Added a clipper factory to Thrace and converted 4000 farmers in Thrace into craftsmen [X]
 
 ----------------------------------------------------------------------------------------------------
 General Changes
 ----------------------------------------------------------------------------------------------------
 
---- Casus Belli
+--- Coring
 
-	- Roll out the size tag flags [X]
-    - Included Reno's concession and place in the sun CBs [X]
-	- Doubled po_cost like Reno to further reduce cost variation (2000 to 4000) [X]
-    - Standardized Take Capital into a fixed 100ws CB like Reno [X]
-    - Restandardized acquire state and free peoples CBs into just Early (1836-1870) and Regular (1870-1950) instead of Early (1836-1870), Mid (1870-1900) and Late (1900-1950) [X]
-    - Adjusted CB costs
-
-        Note: Same as Reno 
-        Costs through the whole game [X]
-        08 WS - Acquire Core Small 
-        12 WS - Acquire Core Medium
-        16 WS - Acquire Core Large
-        20 WS - Acquire Core Huge
-
-        Costs at 1836 to 1870 [X]
-        36 WS - Acquire State Small Early
-        44 WS - Acquire State Medium Early
-        56 WS - Acquire State Large Early
-        80 WS - Acquire State Huge Early
-        
-        Costs at 1870 to 1950 [X]
-        28 WS - Acquire State Small
-        36 WS - Acquire State Medium
-        44 WS - Acquire State Large
-        64 WS - Acquire State Huge 
-
-        Free Peoples CBs have the same WS costs as Acquire State CBs (Both Early and Regular versions) [X]
-        Demand Concession CBs have the same costs as Early Acquire State CBs [X]
-
-        Costs through the whole game [X]
-        04 WS - Place in the Sun Small
-        08 WS - Place in the Sun Medium
-        12 WS - Place in the Sun Large
-        20 WS - Place in the Sun Huge
-
-    - Localisation debt [ ]
-
---- Technology
-
-	- Every 30% RGO invention is standardized to 5% base invention chance [X]
-		Machine Tools 2% -> 5%
-        Distribution Channels 2% -> 5%
-		Nitrogliceryn 2% -> 5%
-		Tractors 3% -> 5%
-		El. Lighting 2% -> 5%
-
-    - Sanitation invention is now 6% base chance instead of 2% [X]
-        Reducing randomness to compensante for how little the tech line does.
-
---- Events
-
-	- Removed Diseases.txt [X]
-    - Removed generic potato blights and cholera epidemics [X]
-    - Removed 'baby booms' [X]
+    - Coring overseas reenabled for states over 100k pops [X]
+    - Removed the colonial, unciv, vassal and at war coring block [X]
+    - Reduced militancy impact on the MTTH [X]
 
 --- Miscellaneous
 
-	- Removed all tech school requirements except the cooldown [X]
-    - Any event that granted a changed CB now grants a humiliate instead [X]
-    - Imported KevinG's transparent menu background [X]
-	- Break from spear event now properly shows infamy cost [ ]
-	- Look around for all hidden infamy hits [ ]
-	- Look into default settings.txt improvement [ ]
-	- Look into sanders late game cb concern [ ]
-	- Fixed UK's flag being the 'unselected country' flag on the lobby [X]
-    - Removed the size tags in the artic sea to increase stability [X]
-    - Made ghostland stay unciv [ ]
-    - Try to remember that ryan suggestion
-
-----------------------------------------------------------------------------------------------------
-Upstream Changes
-----------------------------------------------------------------------------------------------------
-
-Boxes will be ticked next to the lines to indicate their whether or not they have been implemented, or if they were in the mod already.
-Y = Implemented N = Not Implemented A = Already Implemented
-
-IGoR Puir
-
------ 9.0.5
+	- Maxed out counter distance on settings.txt [X]
+    - Added an event to change India's color if it's no longer a british puppet (Credits to SteelRyan) [X]
 
 --- Bug Fixes
 
-    Fixed an issue with the new continents organization causing some crashes. [N]
-    #No such bug in my fork
+    - Fixed a ui bug with national focuses icons not matching up correctly on the national focus mapmode. (This is an upstream change from Nurse_Reno that I forgot to apply in the last patch) [X]
+    - Fixed localisation on national values (This is an upstream change from Nurse_Reno that I forgot to apply in the last patch) [X]
+    - Properly got rid of Disease.txt [X]
+    - Made ghostland unable to pass reforms [X]
+    - Transferred abu dhabi from the ghost nation to liechtenstein [X]
 
------ 9.0.4
+--- Debug
 
---- Bugfixes
+    - Added event 700777 that allows you to either annex the world or be the only nation the world. Any option excludes the ghost nation from annexation [X]
 
-    Blocked AI from being able to switch national values to prevent issues with desync/crashes switching your NV accidentally. [Y]
-    Fixed a ui bug with national focuses icons not matching up correctly on the national focus mapmode. [ ] A^SFÇAÇ^FA^ÇFA^ÇSFFAÇ^FÇ^SAFÇÂSÇ^FÇASF^ÇAFS
-    Fixed a no_culture pop group in south america. [A]
-    Fixed a bugged continent entry for assimilation chance. (Australia) [N]
-    #No such bug in my fork
-    Removed a bugged naval base from Norfolk, Virginia. [N]
-    #No such bug in my fork
-
---- Generic Changes
-
-    Removed double cost concession CB special to Japan and Persia. Their concession CBs have been returned to base prices. [N]
-    #Different implementation of the same system
-
-
------ 9.0.3
-
---- Bug Fixes
-
-    Fixed a state bug with Syria [Y]
-
------ 9.0.2
-
---- Naval Changes
-
-    Naval slider minimum is lowered from 80% to 40% (base puir) [A]
-
---- China Changes
-
-    China no longer receives the base 2% mobilization bonus given to uncivs (starting mobilization reduced from 165 brigades to 37 brigades) [Y]
-
---- Bug Fixes
-
-    Fixed a bugged CB from Colonial Incident event [A]
-
------ 9.0.1
-
---- CB Changes
-
-    Acquire Core now scales with state size: [A]
-    #It already scaled with state size in this fork, but with different costs
-   	    Small Core Cost: 8 WS
-       	Medium Core Cost: 12 WS
-       	Large Core Cost: 16 WS
-       	Huge Core Cost: 20 WS
-
---- Event Changes
-
-   	Simplified the Western Influences event for uncivs to occur quicker. [Y]
-
---- Bug Fixes
-
-    Fixed a bug with concession CBs on Japan and Persia [N]
-    Fixed a crash bug occurring when mousing over unaccepted pops culture. [A]
-    Removed an event that was bricking Chile's ability to receive immigrants [Y]
-
------ 9.0.0
-
---- Economic Changes
-
-    IMPORTANT: Added a modified version of KevinG's world bank and removed the stimulus decisions (Berne Treaty) and all precious metals RGOs on the map to experiment with the new inflation method (all RGOs are purchased, drastically reducing unemployment and introducing consistent currency to the market). [Y]
-    #Added reno's GHO - Ghost Country.txt which sets the world_bank_off and ghostland flags to the Ghost Nation [X]
-    #Added reno's banker.txt to poptype folder [X]
-    #Changing gold rate's on the defines [X]
-    #Added localisation changes relating to this [X]
-    #Added banker pops to arak [X]
-    #Transfered arak from liechtenstein to ghost nation and gave it a gold mine [X]
-    #Added world_bank_control.txt [X]
-    #Added rgo_template bankers and added it to precious_metal_mine in production types.txt [X]
-    #Removed player gold mine events [X]
-    #Removed references to gold mines in goods.txt [X]
-    #Clean up all existing precious metals into cattle, treaty ports into silk [X]
-    #Removed money from stimulus decisions in PUIR.txt [X]
-
-    Standardized all factories onto a single maintenance requirements model (Exceptions: Cement Factories do not require cement, Machine Parts do not require machine parts): [Y]
-        Baseline Maintenance:
-            0.5 Cement
-            0.25 Lumber
-            0.05 Machine Parts
-
-    Factory Changes
-        Steamers and Artisan Steamers: [Y]
-            Base Steel Input 26.8 --> 22
-            Base Output 2.5 --> 3.0
-        Synthetic Oil Factory: [Y]
-            Base Coal Input 5 --> 7.5
-        Explosives and Artisan Explosives: [Y]
-            Base Output 3 --> 3.5
-        Synthetic Dye and Artisan Synthetic Dye: [Y]
-            REMOVED
-        Fabric and Artisan Fabric: [Y]
-            Base Cotton Input 15 --> 12
-        Glass and Artisan Glass: [Y]
-            Base Coal Input 14 --> 20
-            Artisan Output 18 --> 32
-        Regular Clothes and Artisan Regular Clothes: [Y]
-            Base Output 15 --> 20
-        Liquor and Artisan Liquor: [Y]
-            Base Output 5 --> 6
-            Base Glass Input 2 --> 2.5
-        Winery and Artisan Winery: [Y]
-            Base Glass Input 2 --> 2.5
-        Luxury Clothes and Artisan Luxury Clothes: [Y]
-            Base Output 2.5 --> 3
-        Luxury Furniture and Artisan Luxury Furniture: [Y]
-            Base Output 2.3 --> 2.75
-        Machine Parts and Artisan Machine Parts: [Y]
-            Base Output 2 --> 2.3
-        Electric Gears and Artisan Electric Gears: [Y]
-            Base Output 5.5 --> 7
-        Steel and Artisan Steel: [Y]
-            Base Input Coal 5 --> 7
-            Base Output 20 --> 25
-        Radios and Artisan Radios: [Y]
-            Base Output 6 --> 8
-        Automobiles and Artisan Automobiles: [Y]
-            Base Output 3.1 --> 4.5
-        Cement and Artisan Cement: [Y]
-            Base Input Coal 12 --> 10
-            Base Output 3 --> 3.25
-
-    Pop Consumption - Changes:
-        Aristocrats and Capitalists clipper consumption raised from 2.0 to 2.5 (luxury). [Y]
-        Aristocrats paper consumption raised from 10 to 15. [Y]
-        Capitalists paper consumption raised from 20 to 25. [Y]
-        Farmers, Labourers, Artisans, Bureaucrats, Clergymen, Officers, Soldiers, Artisans, Aristocrats, and Capitalists Fish consumption raised from 1.0 to 1.05. [Y]
-
-
---- Major CB Rework
-
-	Definitions: [Y]
-   - Small States are states below 400k pop.
-   - Medium States are states above 400k pop but below 700k pop.
-   - Large States are states above 700k pop but below 1m pop.
-   - Huge States are states above 1m pop.
-
-    New Static CB Costs (Cost will remain consistent all game): [N]
-    #Different application of this concept, further details in the main patch notes on the top of the log.
-        Acquire State and Free Peoples:
-            Small State - 24% WS (Western Hemisphere costs 40% WS for all Small States)
-            Medium State - 40% WS
-            Large State - 60% WS
-            Huge State - 80% WS
-        Acquire Core:
-            Cores will always cost 20% WS, regardless of size.
-        Place in the Sun:
-            Small Colony - 8% WS
-            Medium Colony - 16% WS
-            Large Colony - 24% WS
-            Huge colony - 28% WS
-        Concession: (Note, all costs here are doubled for Persia and Japan ONLY if they have a player on them.)
-            Small Concession - 20% WS
-            Medium Concession - 32% WS
-            Large Concession - 48% WS
-            Huge Concession - 56% WS
-        Take Capital:
-            Take Capital will always be 100%
-
-    Complete overhaul, moving from early/mid/late game balance to a population balance using Pero's pop flag system. All CBs will remain the same cost, only the size of the state's pop will change the cb cost. [N]
-    #Different application of this concept, further details in the main patch notes on the top of the log.
-
-    Liberate country has been entirely removed until 1914. [Y]
-
-    All puppet related CBs that give or take land directly from a puppet have been removed. [Y]
-
---- Immigration Overhaul
-
-    Immigrants now split, monthly, between North and South America (Australia and South Africa are officially off the roster until they can be rebalanced in the future) [Y]
-    #Added migration targets to each poptype and the ghostland blocker [X]
-    #Added usa_immigration_buff [X]
-    #Added continent_immigrant_nation flags to their respective tags [X]
-    #Reno put the south american flag on columbia
-        Examples:
-            If there are 10k immigrants batched to join on January, all 10k will go to North America to then be split in competition between the top North American countries based on immigration priority (reforms and economy)
-            If there are 10k immigrants batched to join on February, all 10k will go to South America to then be split in competition between the top South American countries based on immigration priority (reforms and economy)
-
---- Nation Specific Changes
-
-    USA:
-        Virginia and Maryland have been combined into 1 state and the decisions/events relating to that have been fixed. [N]
-        Pop has been moved from the state of New York to Georgia / Ohio / Pennsylvania to spread it out, so losing New York isn't as devastating. [N]
-    	#Fundamentally disagree with making such a wild change to address something that is arguably an issue.
-    Egypt:
-        Now starts civilized with the same starting tech and reforms as the Ottomans. [A]
-    Japan:
-        Added a France sphere decision to the day 1 options. (Russia, Britain, and USA) [Y]
-        Starting 30k (5 infantry 5 artillery) armies have been increased from 3 --> 4. [Y]
-    Britain:
-        Starting Dravidian and Indo Aryan soldier pops in British controlled India reduced by 75% (converted to RGO workers) [Y]
-    India:
-        Entire East side of the Indus River has been made into plains. [Y]
-    China:
-        Treaty ports, in the fashion of HPM, have been readded under the CB "Treaty Port and Reparations". When the CB is completed, a decision will be allowed to take a treaty port. Every treaty port except Hainan and Tainan will receive a 400% output to RGO production. [Y]
-        #Add treaty_port.txt to events [X]
-        #Add treaty_port.txt to decisions [X]
-        #Include treaty port related changes to event_modifiers.txt [X]
-        #Include treaty port related changes to cb_types.txt [X]
-        #Include treaty port localisation changes [X]
-        #Swapped demand_reperations to acquire_treaty_port in CivilizationAndGunBoats.txt [X]
-        #Swapped demand_concession into acquire_treaty_port in PUIR.txt in the first opium war section [X]
-        Treaty ports, once taken by a colonizing power, will gain a buff for 400% increased output bonus. [Y]
-        All pre-existing precious metals RGOs in treaty ports have been changed to Silk. [Y]
-        Massively simplified the event system surrounding Chinese westernization, so its far less spammy and random. The only event you will receive somewhat often is the microscope research points, which I'm sure you don't want turned off. [Y]
-    Russia:
-        Removed Ukrainian Breadbasket pop growth bonus and, instead, buffed all provinces starting liferating by 3 (35 --> 38 for example). [N]
-        #This change takes away from the spirit of Russia in puir and ontop of that, i believe it overbuffs Russia.
-    Portugal:
-        Macao has been lowered from a starting state to a starting colony (now benefits from treaty port). [Y]
-
-
---- Naval Changes
-
-    Removed all naval supply limit restrictions. [N]
-    Locked minimum naval spending to 80% to prevent some exploits. [N]
-    UI change to reflect your infinite naval limit. [N]
-    #I won't be using the no cap approach to the navy.
-
---- Army Stat Changes
-
-    Planes have had their default brigade size lowered from 3000 to 2000 (brigade damage is based on a ratio to 3000 pops in a regiment, so a unit at 2,000 does 66.7% damage as a 3,000 brigade), but had their base damage increased by 33.4% (accounted for base 10 damage).
-    Tanks have had their default brigade size increased from 3000 to 4000 (brigade damage is based on a ratio to 3000 pops in a regiment, so a unit at 4,000 does 133.4% damage as a 4,000 brigade). [N]
-    #I've done a different implementation of this concept as you can see on the main log above.
-
-
---- Inventions - Changes
-
-    All country wide industrial buffs, like electricity and nitroglycerin, no longer exist and all of their bonuses have been pushed directly to their corresponding inventions. (No more hidden tech/invention bonuses) [A]
-
-
---- National Value Changes
-
-    NV Change decision cooldown has been lowered from 10 years to 5 years. [Y]
-    #Also included 'ai = no' checks
-    NV Liberty is no longer necessary to receive immigrants and now gives 12.5% political AND social reform desire. [Y]
-    NV Equality no longer reduces militancy in unaccepted pops. (Was causing issues obtaining reforms) [Y]
-    NV Productivity no longer gives 5% tax efficiency. [Y]
-    NV Autocracy no longer gives a mobilization bonus. [Y]
-    NV Order no longer gives starting experience and land organisation. It now gives a 2% promotion chance bonus to soldiers as long as your nation is below 4.5% soldier pops. (Soldier Nat Focus gives 20%, this is functionally a free soldier focus if your country has at least 10 states.) [Y]
-
---- Generic Changes
-
-    Added a GFX change to shorelines to make the memerivers look a little less jarring to the eyes. (Credit to Sirbuddyguy for the work and Olympion for the files) [Y]
-    Revanchism immigration mallus begins at 15% revanchism. [Y]
-    Boer culture color has been changed from orange to blue, to make it more noticeable when compared to Bantu, which has another shade of orange. [Y]
-    Uncivs can now receive the inventions: Mobilization Time Tables and Personnel Category Tables (both give 0.01% mobilization) [Y]
-    Uncivs can now unlock Hussars, Dragoons, and Cuirassiers and inherent them properly upon westernization. [A]
-    Removed Persian Decision "Assert Ourselves on the Steppe", it was broken and against the mods intent. [A]
-    Dynamic Dominions have been turned off, as I've found quite a few exploits around them. Dynamic dominions are NOT dominions, you can still release New Zealand and West Indies Confederation, etc. [Y]
-
---- Bug Fixes
-
-    Fixed the crash occurring due to BOL_conservative party missing. [Y]
-    Made the Chinese pop nerf occur immediately to prevent an exploit. [Y]
-    Fixed a localisation error with Mexican Homestead Act. [Y]
-    Fixed a missing river crossing between Daugavipls to Panevezys. [A]
-    Fixed a missing river crossing between Kostorma and Yaroslavl. [Y]
-    Fixed a missing river crossing between Bratislava and Sankt Polten. [Y]
-    Fixed a missing river crossing between Eindhoven and Almere. [Y]
-    Fixed a missing river crossing between Kansas City and Peoria. [Y]
-    Fixed a missing river crossing between Brno and Troppau. [A]
-    Fixed missing connections between Santo Tomas to Santa Maria and Passo Fundo. [A]
-    Fixed a missing river crossing between Obidos and Borba. [Y]
-    Fixed a VERY bad river crossing between Poltava and Kirvoy Rog. [Y]
-    Lowered random Fiji island liferating to match surrounding islands, weird inconsistency issue. [Y]
-    #He actually raised the LR so they're both 20, i actually lowered both for consistency with the surrounding isles.
-    Fixed a bug with Japan still having Ainu accepted. [A]
-    Removed random Indian coastal cores. [A]
-    Fixed unit position for New Orleans. [Y]
-    Norfolk Island will now start under Australian control in alternative start date. [A]
-
-----------------------------------------------------------------------------------------------------
-Mod Files
-----------------------------------------------------------------------------------------------------
-
-- Decisions
-
-	- Moved "Bardo Treaty" and "Proclaim Second Empire" out of PUIR.txt into France.txt [X]
-	- Removed Immigration 7765xx.txt since it was fully commented and doing nothing [X]
-	- Deleted japan_decisions_events.txt and added reno's japan_sphering_events.txt [X]
-    - Swapped cut_down_to_size into demand_reperations in ACW.txt [X]
-    - Merged soldier groups in Bolivia to stop bugging the OOBs [X]
-
-----------------------------------------------------------------------------------------------------
-Temp
-----------------------------------------------------------------------------------------------------
-
---- Loose Changes
-
- Removed the beiyang fleet decision at war block in puir.txt
- Included reno's size tags.txts with the is releasable vassal = no flags
- Moved all references from province 1167 to 1128 in Ghost_Country_Events.txt
- Changed ai_will_do factor to 0 from 1 in the nv change decision.txt in regards to order
- Rearranged south american regions in region.txt
- Rearranged egypt regions in region.txt
- Rearranged Pero Changes.csv
- Pasted the new Reno Changes.csv but deleted overlapping changes

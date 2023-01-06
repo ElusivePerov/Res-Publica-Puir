@@ -1227,18 +1227,57 @@ classless_society_modifier = {
 	icon = 17
 }
 
-### RGO Notes ### #WIP#
+#### State Sizing
 
-#### State Sizing ####
+sizing_cooldown = {	icon = 8 }
 
-sizing_cooldown = {
-	icon = 8
+#### World Bank
+
+ghost_nerf = {
+	research_points_modifier = -2.0
+	diplomatic_points_modifier = -1.0
+	global_pop_militancy_modifier = -1.0
+	prestige = -5.0
+	icon = 10
 }
 
-sizing_cooldown1 = {
-	icon = 8
-}
+#### ACW - Slavery Pressure
 
-sizing_cooldown2 = {
-	icon = 8
-}
+slave_pressure_delay = { icon = 4 }
+slave_pressure_var0 = { icon = 4 }
+slave_pressure_var1 = { icon = 4 }
+slave_pressure_var2 = { icon = 4 }
+slave_pressure_var3 = { icon = 4 }
+slave_pressure_var4 = { icon = 4 }
+slave_pressure_var5 = { icon = 4 }
+slave_pressure_var6 = { icon = 4 }
+slave_pressure_var7 = { icon = 4 }
+slave_pressure_var8 = { icon = 4 }
+slave_pressure_var9 = { icon = 4 }
+slave_pressure_var10 = { icon = 4 }
+slave_pressure_var11 = { icon = 4 }
+slave_pressure_var12 = { icon = 4 }
+slave_pressure_var13 = { icon = 4 }
+slave_pressure_var14 = { icon = 4 }
+slave_pressure_var15 = { icon = 4 }
+slave_pressure_var16 = { icon = 4 }
+slave_pressure_var17 = { icon = 4 }
+slave_pressure_var18 = { icon = 4 }
+slave_pressure_var19 = { icon = 4 }
+slave_pressure_var20 = { icon = 4 }
+
+#### Debug
+
+#hornoplenty = {
+#	RGO_output = 2.0
+#	poor_life_needs = -0.95
+#	poor_everyday_needs = -0.95
+#	poor_luxury_needs = -0.95
+#	middle_life_needs = -0.95
+#	middle_everyday_needs = -0.95
+#	middle_luxury_needs = -0.95
+#	rich_life_needs = -0.95
+#	rich_everyday_needs = -0.95
+#	rich_luxury_needs = -0.95	
+#	icon = 10
+#}

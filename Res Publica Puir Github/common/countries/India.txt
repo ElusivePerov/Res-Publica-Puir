@@ -1,4 +1,5 @@
 color = {199 32 54}
+absolute_monarchy = { 255 51 255 }
 graphical_culture = IndianGC
 
 party = {

@@ -8,7 +8,7 @@ culture = north_caucasian
 religion = sunni
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_education
 literacy = 0.04
 civilized = yes
 
