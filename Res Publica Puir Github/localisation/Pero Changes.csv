@@ -76,6 +76,22 @@ acquire_core_state_huge;Take Huge Core State;;;;;;;;;;;;;;x
 acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;;;;x
 acquire_core_state_huge_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;;x
 acquire_core_state_huge_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;;x
+acquire_state_small_early;Take Small State Earlygame;;;;;;;;;;;;;x
+acquire_state_small_early_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_small_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+acquire_state_small_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+acquire_state_medium_early;Take Medium State Earlygame;;;;;;;;;;;;;x
+acquire_state_medium_early_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_medium_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+acquire_state_medium_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+acquire_state_large_early;Take Large State Earlygame;;;;;;;;;;;;;x
+acquire_state_large_early_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_large_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+acquire_state_large_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+acquire_state_huge_early;Take Huge State Earlygame;;;;;;;;;;;;;x
+acquire_state_huge_early_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_huge_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+acquire_state_huge_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
 acquire_state_small;Take Small State Earlygame;;;;;;;;;;;;;x
 acquire_state_small_short;Acquire $STATE$;;;;;;;;;;;;;x
 acquire_state_small_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
@@ -92,6 +108,22 @@ acquire_state_huge;Take Huge State Earlygame;;;;;;;;;;;;;x
 acquire_state_huge_short;Acquire $STATE$;;;;;;;;;;;;;x
 acquire_state_huge_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
 acquire_state_huge_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+free_peoples_small_early;Free Small State Earlygame;;;;;;;;;;;;;x
+free_peoples_small_early_short;Free $STATE$;;;;;;;;;;;;;x
+free_peoples_small_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+free_peoples_small_early_setup;Demand that $RECIPIENT$ return territory.;;;;;;;;;;;;;x
+free_peoples_medium_early;Free Medium State Earlygame;;;;;;;;;;;;;x
+free_peoples_medium_early_short;Free $STATE$;;;;;;;;;;;;;x
+free_peoples_medium_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+free_peoples_medium_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+free_peoples_large_early;Free Large State Earlygame;;;;;;;;;;;;;x
+free_peoples_large_early_short;Free $STATE$;;;;;;;;;;;;;x
+free_peoples_large_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+free_peoples_large_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
+free_peoples_huge_early;Free Huge State Earlygame;;;;;;;;;;;;;x
+free_peoples_huge_early_short;Free $STATE$;;;;;;;;;;;;;x
+free_peoples_huge_early_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x
+free_peoples_huge_early_setup;Demand that $RECIPIENT$ secede territory.;;;;;;;;;;;;;x
 free_peoples_small;Free Small State Earlygame;;;;;;;;;;;;;x
 free_peoples_small_short;Free $STATE$;;;;;;;;;;;;;x
 free_peoples_small_desc;This CB fixes the warscore value in order to keep warscore values consistent and prevent exploits.;;;;;;;;;;;;;x

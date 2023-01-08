@@ -155,7 +155,6 @@ political_decisions = {
 		effect = {
 			capital = 876
 			set_country_flag = we_moved_to_anatolia
-			add_accepted_culture = misri
 			add_accepted_culture = mashriqi
 			add_accepted_culture = bedouin
 			add_accepted_culture = azerbaijani

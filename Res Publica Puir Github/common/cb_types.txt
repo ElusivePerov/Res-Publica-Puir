@@ -976,7 +976,7 @@ humiliate = {
 	
 	badboy_factor = 1.5
 	prestige_factor = 1
-	peace_cost_factor = 15
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 1
@@ -1016,6 +1016,51 @@ humiliate = {
 				owner = { has_country_modifier = french_growth_boost }
 			}
 			owner = { remove_country_modifier = french_growth_boost }
+		}
+		FROM = { prestige = -30 }
+		THIS = {
+			prestige = 30
+			#limit = { prestige = 50 }
+			#prestige = 7.5 
+			#limit = { prestige = 100 }
+			#prestige = 15
+			#limit = { prestige = 150 }
+			#prestige = 22.5
+			#limit = { prestige = 200 }
+			#prestige = 30
+			#limit = { prestige = 250 }
+			#prestige = 37.5
+			#limit = { prestige = 300 }
+			#prestige = 45
+			#limit = { prestige = 350 }
+			#prestige = 52.5
+			#limit = { prestige = 400 }
+			#prestige = 60
+			#limit = { prestige = 450 }
+			#prestige = 67.5
+			#limit = { prestige = 500 }
+			#prestige = 75
+			#limit = { prestige = 550 }
+			#prestige = 82.5
+			#limit = { prestige = 600 }
+			#prestige = 90
+			#limit = { prestige = 650 }
+			#prestige = 97.5
+			#limit = { prestige = 700 }
+			#prestige = 105
+			#limit = { prestige = 750 }
+			#prestige = 112.5
+			#limit = { prestige = 800 }
+			#prestige = 120
+			#limit = { prestige = 850 }
+			#prestige = 127.5
+			#limit = { prestige = 900 }
+			#prestige = 135
+			#limit = { prestige = 950 }
+			#prestige = 142.5
+			#limit = { prestige = 1000 }
+			#prestige = 150
+			}
 		}
 	}	
 }
@@ -2293,7 +2338,7 @@ acquire_core_state_small = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	#po_install_communist_gov_type = yes
 	#po_uninstall_communist_gov_type = yes
 	
@@ -2348,7 +2393,7 @@ acquire_core_state_medium = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
 	
@@ -2401,7 +2446,7 @@ acquire_core_state_large = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
 	
@@ -2454,7 +2499,7 @@ acquire_core_state_huge = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
 	
@@ -2542,7 +2587,7 @@ acquire_state_small_early = {
 	}		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -2630,7 +2675,7 @@ acquire_state_medium_early = {
 	}		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 
 	war_name = WAR_TAKE_NAME
 	
@@ -2718,7 +2763,7 @@ acquire_state_large_early = {
 	}		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -2806,7 +2851,7 @@ acquire_state_huge_early = {
 	}		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -2896,7 +2941,7 @@ acquire_state_small = {
 		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -2986,7 +3031,7 @@ acquire_state_medium = {
 		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -3076,7 +3121,7 @@ acquire_state_large = {
 		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -3166,7 +3211,7 @@ acquire_state_huge = {
 		
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -3248,7 +3293,7 @@ free_peoples_small_early = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3330,7 +3375,7 @@ free_peoples_medium_early = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3412,7 +3457,7 @@ free_peoples_large_early = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3494,7 +3539,7 @@ free_peoples_huge_early = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3577,7 +3622,7 @@ free_peoples_small = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3660,7 +3705,7 @@ free_peoples_medium = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3743,7 +3788,7 @@ free_peoples_large = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3826,7 +3871,7 @@ free_peoples_huge = {
     }
 
 	po_transfer_provinces = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_FREE_NAME
 	
@@ -3899,7 +3944,7 @@ demand_concession_small = {
 	}
 	
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_CONCESSION_NAME
 
@@ -3972,7 +4017,7 @@ demand_concession_medium = {
 	}
 	
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_CONCESSION_NAME
 
@@ -4045,7 +4090,7 @@ demand_concession_large = {
 	}
 	
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_CONCESSION_NAME
 
@@ -4118,7 +4163,7 @@ demand_concession_huge = {
 	}
 	
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_CONCESSION_NAME
 
@@ -4198,7 +4243,7 @@ place_in_the_sun_small = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 
 	war_name = WAR_COLONIAL_NAME
 	
@@ -4278,7 +4323,7 @@ place_in_the_sun_medium = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 
 	war_name = WAR_COLONIAL_NAME
 	
@@ -4358,7 +4403,7 @@ place_in_the_sun_large = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 
 	war_name = WAR_COLONIAL_NAME
 	
@@ -4438,7 +4483,7 @@ place_in_the_sun_huge = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 
 	war_name = WAR_COLONIAL_NAME
 	

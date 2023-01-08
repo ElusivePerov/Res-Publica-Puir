@@ -36,20 +36,6 @@ party = {
 
 	ideology = liberal
 
-	economic_policy = interventionism
-	trade_policy = free_trade
-	religious_policy = pluralism
-	citizenship_policy = full_citizenship
-	war_policy = anti_military
-}
-
-party = {
-	name = "generic_liberal"
-	start_date = 1865.1.1
-	end_date = 2000.1.1
-
-	ideology = liberal
-
 	economic_policy = laissez_faire
 	trade_policy = free_trade
 	religious_policy = pluralism
@@ -106,7 +92,7 @@ party = {
 
 	ideology = liberal
 
-	economic_policy = interventionism
+	economic_policy = laissez_faire
 	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
@@ -149,20 +135,6 @@ party = {
 	ideology = anarcho_liberal
 
 	economic_policy = interventionism
-	trade_policy = free_trade
-	religious_policy = pro_atheism
-	citizenship_policy = full_citizenship
-	war_policy = pro_military
-}
-
-party = {
-	name = "CAN_anarcho_liberal"
-	start_date = 1865.1.1
-	end_date = 2000.1.1
-
-	ideology = anarcho_liberal
-
-	economic_policy = laissez_faire
 	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
